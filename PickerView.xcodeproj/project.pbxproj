@@ -19,6 +19,7 @@
 		496EC94A1D7FC853005AD5CD /* PickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496EC9471D7FC853005AD5CD /* PickerViewModel.swift */; };
 		496EC94E1D7FC955005AD5CD /* Address.plist in Resources */ = {isa = PBXBuildFile; fileRef = 496EC94C1D7FC955005AD5CD /* Address.plist */; };
 		496EC94F1D7FC955005AD5CD /* ChooseCityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496EC94D1D7FC955005AD5CD /* ChooseCityViewModel.swift */; };
+		496EC9521D7FDEC8005AD5CD /* picker.gif in Resources */ = {isa = PBXBuildFile; fileRef = 496EC9511D7FDEC8005AD5CD /* picker.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		496EC9471D7FC853005AD5CD /* PickerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewModel.swift; sourceTree = "<group>"; };
 		496EC94C1D7FC955005AD5CD /* Address.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Address.plist; sourceTree = "<group>"; };
 		496EC94D1D7FC955005AD5CD /* ChooseCityViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseCityViewModel.swift; sourceTree = "<group>"; };
+		496EC9511D7FDEC8005AD5CD /* picker.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = picker.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		496EC9151D7FC7BA005AD5CD /* PickerView */ = {
 			isa = PBXGroup;
 			children = (
+				496EC9501D7FDEB1005AD5CD /* DemoGif */,
 				496EC94B1D7FC955005AD5CD /* CityPickerView */,
 				496EC9441D7FC840005AD5CD /* PickerView */,
 				496EC9161D7FC7BA005AD5CD /* AppDelegate.swift */,
@@ -154,6 +157,14 @@
 				496EC94D1D7FC955005AD5CD /* ChooseCityViewModel.swift */,
 			);
 			path = CityPickerView;
+			sourceTree = "<group>";
+		};
+		496EC9501D7FDEB1005AD5CD /* DemoGif */ = {
+			isa = PBXGroup;
+			children = (
+				496EC9511D7FDEC8005AD5CD /* picker.gif */,
+			);
+			name = DemoGif;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +273,7 @@
 			files = (
 				496EC9491D7FC853005AD5CD /* PickerView.xib in Resources */,
 				496EC9211D7FC7BA005AD5CD /* LaunchScreen.storyboard in Resources */,
+				496EC9521D7FDEC8005AD5CD /* picker.gif in Resources */,
 				496EC91E1D7FC7BA005AD5CD /* Assets.xcassets in Resources */,
 				496EC91C1D7FC7BA005AD5CD /* Main.storyboard in Resources */,
 				496EC94E1D7FC955005AD5CD /* Address.plist in Resources */,
